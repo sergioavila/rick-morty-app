@@ -29,6 +29,7 @@ export default function ParallaxPixelStars() {
             star.style.width = size + 'px';
             star.style.height = size + 'px';
             star.style.backgroundColor = colour;
+            star.style.zIndex = '-1';
             document.body.appendChild(star);
             stars.push(star);
         }
